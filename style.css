@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #88888267;
+    }
+    
+    .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    }
+    
+  /* Video Section */
+    .video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    }
+    
+    .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+  /* About Section */
+    #about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 100vh;
+    }
+    
+    #about h2 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    #about .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    }
+    
+  /* Product Section */
+    #product {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+    
+    .product-item {
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .product-item img {
+    transition: transform 0.3s ease;
+    }
+    
+    
+    .section-title {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    }
+    
+    .img-fluid {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 1rem;
+    }
+    
+    h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .price {
+    font-size: 1.2rem;
+    }
+    
+    .btn-wrapper {
+    margin-top: 1rem;
+    }
+    
+    .btn-order {
+    background-color: #007bff;
+    color: white;
+    }
+    
+    .btn-order:hover {
+    background-color: #0056b3;
+    color: white;
+    }
+    
+  /* Order Form Section */
+    #order-form {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    }
+    
+    #order-form h2 {
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    #order-form .form-label {
+    font-size: 1rem;
+    }
+    
+    #order-form .form-control,
+    #order-form .form-select {
+    font-size: 1rem;
+    }
+    
+    #order-form .form-check-label {
+    font-size: 0.9rem;
+    }
+    
+    #orderForm .mb-3 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    }
+    
+  /* Footer */
+    footer {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
